@@ -7,32 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="styles/journal.css" />
 </head>
-<body>
-  <h1>Daily Journal</h1>
-  <form action="" method="post" target="self"></form>
-    <fieldset class="entry">
-      <legend>Make a New Entry</legend>
-        <label for="journalDate">Date of Entry:</label>
-        <input type="date" name="journal" id="journalDate" autofocus>
-    </fieldset>
-    <fieldset class="entry">
-        <label for="conceptsCovered">Concepts Covered:</label>
-        <input type="text" name="concepts" id="conceptsCovered">
-    </fieldset>
-    <fieldset class="entry">
-        <label for="journalBody">Journal Entry:</label>
-        <textarea type="text" name="body" id="journalBody"></textarea>
-    </fieldset>
-    <fieldset class="entry">
-        <label for="moodToday">Mood for the Day:</label>
-          <select name="mood">
-            <option value="ecstatic">Ecstatic</option>
-            <option value="doin_well">Doin' well</option>
-            <option value="just_ok">Just OK</option>
-            <option value="sad">Sad</option>
-            <option value="kill_me">Kill me now</option>
-            </select>
-        </fieldset>
-    <input type="submit" onclick="alert('Journal Entry has been saved!')" value="Record Journal Entry">
+<body>  
+  <!-- Placeholder for -->
+  <article class="entryLog"></article>
+
+  <script src="journal.js"></script>
 </body>
 </html>
