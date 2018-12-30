@@ -28,7 +28,7 @@ const entryForm = {
              <option value="kill_me">Kill me now</option>
            </select>
          </fieldset>
-         <button id="journal_Save">Save New Entry</button>
+         <button id="journalSave">Save New Entry</button>
        </article>`;
 
        // Declare a variable to target the article with a class of entryLog.
