@@ -1,4 +1,6 @@
 entryForm.formBuilder();
 
 let entrySaveBtn = document.getElementById("journalSave")
-entrySaveBtn
+entrySaveBtn.addEventListener("click", eventListener.entrySaver)
+
+data.displayData();
